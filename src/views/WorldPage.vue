@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="ion-padding">
-            <ion-button @click="sendToCountryPage">See Coutry Data</ion-button>
+            <ion-button @click="sendToCountryPage">See Country Data</ion-button>
         </div>
         <CountryInfo v-bind:info="info" />
     </div>
